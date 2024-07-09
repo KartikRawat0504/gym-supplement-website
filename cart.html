@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrago - Gym Supplement Store</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+  <header>
+    <h1>Nutrago - Gym Supplement Store</h1>
+  </header>
+  
+  <div class="container">
+    <div id="cart">
+      <h2>Your Cart</h2>
+      <ul id="cart-items">
+        <!-- Cart items will be dynamically added here -->
+      </ul>
+      <p>Total: $<span id="cart-total">0.00</span></p>
+      <button id="checkout-btn">Checkout</button>
+    </div>
+
+    <div id="products">
+      <h2>Available Products</h2>
+      <ul id="product-list">
+        <li data-name="Protein Powder" data-price="29.99">Protein Powder - $29.99</li>
+        <li data-name="Pre-Workout" data-price="24.99">Pre-Workout - $24.99</li>
+        <li data-name="BCAA" data-price="19.99">BCAA - $19.99</li>
+        <!-- Add more products here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="cart.js"></script>
+</body>
+</html>
